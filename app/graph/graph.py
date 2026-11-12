@@ -1,5 +1,5 @@
 """
-Nexus LangGraph — graph compilation.
+Nexus LangGraph — define and compile the shared request graph.
 
 The graph is compiled once at startup and reused for all requests.
 Tenant isolation is enforced via state fields (tenant_id), not graph instances.
